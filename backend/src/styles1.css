@@ -1,0 +1,60 @@
+*{
+    padding:0; 
+    margin:0; 
+    box-sizing: border-box;
+}
+ 
+body{
+    background-color:#9400FF;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    width:300px;
+    height: 350px; 
+   margin: 200px 600px; 
+     text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding:10px 0px; 
+      background-color: white;
+  }
+
+  .sep h5{
+    padding-top:10px;
+  }
+  .email{
+    padding-top:20px; 
+  }
+  .password{
+    padding-top:20px;
+  }
+  .confirmpass{
+    padding-top:20px;
+  }
+  .email input{
+    height:40px; 
+    width:230px; 
+  }
+  .password input{
+    height:40px; 
+    width:230px; 
+  }
+  .confirmpass input{
+    height:40px; 
+    width:230px; 
+  }
+ ::placeholder{
+    padding:10px; 
+ }
+ .button{
+    padding-top:30px; 
+ }
+
+ .button button{
+    height:30px; 
+    width:230px; 
+    color:white; 
+    background-color:#9400FF;
+    border:none; 
+    border-radius:10px; ;
+ }

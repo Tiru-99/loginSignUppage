@@ -1,0 +1,90 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#9400FF;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+  width:300px;
+  height: 350px; 
+ margin: 200px 600px; 
+   text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding:10px 0px; 
+    background-color: white;
+}
+
+.loginpage {
+padding-top:10px; 
+
+}
+.loginpage h1{
+    font-weight:bolder
+}
+    
+
+.lep h5{
+    padding:10px 0; 
+}
+
+.email{
+    padding-bottom:10px;
+    padding-top:10px; 
+}
+
+.email input{
+    height:40px; 
+    width:230px;
+    
+}
+
+::placeholder{
+    padding:10px; 
+
+}
+.password input{
+    height:40px; 
+    width:230px; 
+}
+
+.forgetpass{
+    text-align:left;
+    padding-left:40px; 
+    padding-top:15px; 
+}
+
+.forgetpass h5{
+    color:#9400FF;
+}
+.loginbutt{
+    padding-top:13px; 
+    
+}
+.loginbutt button{
+    width:230px; 
+    height: 30px;
+    color:white; 
+    background-color: #9400FF;
+    border:none; 
+    border-radius:5px; 
+}
+.signup{
+    padding-top:7px; 
+    display:flex; 
+    padding-left:40px;
+    padding-top:10px;
+}
+.su h5{
+    color:#9400FF;
+    
+}
+.su a{
+    text-decoration: none;
+}
+.forgetpass a{
+    text-decoration:none; 
+}

@@ -1,0 +1,43 @@
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+.main{
+    width:300px;
+    height: 350px; 
+    margin: 200px 600px; 
+     text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding:10px 0px; 
+      background-color: white;
+    }
+
+    body{
+        background-color:#9400FF;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .pin{
+        padding-top:40px; 
+    }
+    .pin input{
+        height:40px; 
+        width:230px; 
+    }
+    ::placeholder{
+        padding:10px; 
+    }
+
+    .butt{
+        padding-top:40px;
+    }
+    .butt button{
+      width:230px;
+    height:30px; 
+color:white; 
+background-color: #9400FF; 
+border:none; 
+border-radius:10px; 
+   }

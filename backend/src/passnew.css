@@ -1,0 +1,51 @@
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+.main{
+    width:300px;
+    height: 350px; 
+    margin: 200px 600px; 
+     text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding:10px 0px; 
+      background-color: white;
+    }
+
+    body{
+        background-color:#9400FF;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+   
+    ::placeholder{
+        padding:10px; 
+    }
+
+    .pass{
+        padding-top:30px; 
+    }
+    .pass input{
+        height:40px; 
+        width:230px; 
+    }
+    .confirmpass{
+        padding-top:10px; 
+    }
+    .confirmpass input{
+        height:40px; 
+        width:230px;
+    }
+    .button{
+        padding-top:40px; 
+    }
+    .button button{
+        background-color:#9400FF; 
+        color:white; 
+        border:none; 
+        border-radius:10px; 
+        height:30px; 
+        width:230px; 
+    }
